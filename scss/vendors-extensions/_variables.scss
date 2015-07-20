@@ -1,0 +1,42 @@
+// Bootstrap Variables
+// -----------------------------------------------------
+
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base:       #3C4F58;
+$gray-darker:     #455A64;
+$gray-dark:       #6A7B83;
+$gray:            #DCDCDC;
+$gray-light:      #F0F0F0;
+$gray-lighter:    #F6F6F6;
+$brand-primary:   #14A8BA;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  "Open Sans", Helvetica, Arial, sans-serif;
+
+
+//== Navbar
+//
+//##
+
+//=== Inverted navbar
+// Reset inverted navbar basics
+
+$navbar-inverse-bg:                         $gray-base;
+$navbar-inverse-border:                     transparent;
+
+
+//== Jumbotron
+//
+//##
+
+$jumbotron-color:                #B4BDC1;
+$jumbotron-bg:                   $gray-darker;
+$jumbotron-heading-color:        #fff;
