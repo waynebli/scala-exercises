@@ -1,31 +1,17 @@
-// Vendors Extensions
-@import "vendors-extensions/variables";
-
-// Vendors
-@import "vendors/bootstrap";
-
-// Vendors Extensions
-@import "vendors-extensions/bootstrap";
-
 // Utils
 @import "utils/variables";
 @import "utils/functions";
 @import "utils/mixin";
 
-// Base
-@import "base/reset";
-@import "base/base";
-@import "base/typography";
+// Vendors
+@import "vendors/bootstrap";
 
 // Layout
 @import "layout/header";
-@import "layout/footer";
 
-// Components
-@import "components/buttons";
-
-// Pages
-@import "pages/home";
+// Modules
+@import "modules/navbar";
+@import "modules/jumbotron";
+@import "modules/buttons";
 
 // Themes
-@import "themes/admin";

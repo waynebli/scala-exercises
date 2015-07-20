@@ -1,2 +1,12 @@
-// Typography
+// Mixin
 // -----------------------------------------------------
+
+
+// Images
+
+@mixin image-size {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
