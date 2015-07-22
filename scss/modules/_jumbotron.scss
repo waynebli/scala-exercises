@@ -2,10 +2,13 @@
 // -----------------------------------------------------
 
 .jumbotron {
-    //background: url(../img/jumbotron_background.jpg) no-repeat fixed;
-    //@include image-size;
+    position: relative;
+    margin-bottom: 0;
+    background: linear-gradient(rgba($gray-darker, 0.6), rgba($gray-darker, 0.6)), url(../img/jumbotron_background.jpg) no-repeat center center;
+    @include image-size;
     @media screen and (min-width: $screen-sm-min) {
-        padding-top:    ($jumbotron-padding * 3.8);
-        padding-bottom: ($jumbotron-padding * 3.8);
+        padding-top:    ($jumbotron-padding * 8);
+        padding-bottom: ($jumbotron-padding * 8);
     }
 }
+

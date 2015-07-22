@@ -1,17 +1,21 @@
-// Utils
-@import "utils/variables";
-@import "utils/functions";
-@import "utils/mixin";
+// Libraries
+@import "libraries/variables";
+@import "libraries/functions";
+@import "libraries/mixin";
 
 // Vendors
 @import "vendors/bootstrap";
 
 // Layout
-@import "layout/header";
+@import "layout/global";
+@import "layout/technologies";
 
 // Modules
 @import "modules/navbar";
 @import "modules/jumbotron";
 @import "modules/buttons";
+@import "modules/panels";
+@import "modules/progress-bars";
+
 
 // Themes

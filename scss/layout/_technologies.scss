@@ -1,0 +1,76 @@
+// Technologies
+// -----------------------------------------------------
+.technologies {
+    background: $technologies-bg;
+    .section-description {
+        margin-bottom: ($line-height-computed * 2);
+        font-size: $font-size-large;
+    }
+    .technologies-list {
+        .scala {
+            .panel-default {
+                .panel-heading,
+                .progress-bar {
+                    background: $scala;
+                }
+            }
+        }
+        .akka {
+            .panel-default {
+                .panel-heading,
+                .progress-bar {
+                    background: $akka;
+                }
+                
+            }
+        }
+        .play {
+            .panel-default {
+                .panel-heading,
+                .progress-bar {
+                    background: $play;
+                }
+            }
+        }
+        .slick {
+            .panel-default {
+                .panel-heading,
+                .progress-bar {
+                    background: $slick;
+                }
+            }
+        }
+        .spark {
+            .panel-default {
+                .panel-heading,
+                .progress-bar {
+                    background: $spark;
+                }
+            }
+        }
+        .scalaz {
+            .panel-default {
+                .panel-heading,
+                .progress-bar {
+                    background: $scalaz;
+                }
+            }
+        }
+        .shapeless {
+            .panel-default {
+                .panel-heading,
+                .progress-bar {
+                    background: $shapeless;
+                }
+            }
+        }
+        .cats {
+            .panel-default {
+                .panel-heading,
+                .progress-bar {
+                    background: $cats;
+                }
+            }
+        }
+    }
+}
