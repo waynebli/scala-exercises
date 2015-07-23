@@ -1,6 +1,26 @@
 // Progress bars
 // -----------------------------------------------------
 
+.content-progres-bar {
+    position: relative;
+    padding: 13px;
+    background: $gray-lighter;
+    
+    span {
+        position: absolute;
+        top: 8px;
+        right: 13px;
+        font-size: $font-size-small;
+    }
+}
+
 .progress {
     height: ($line-height-computed / 2.5);
+    margin-bottom: 0;
+    @include box-shadow(none);
+    max-width: 82%;
+}
+
+.progress-bar {
+    @include box-shadow(none);
 }

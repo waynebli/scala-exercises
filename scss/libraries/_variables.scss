@@ -3,29 +3,36 @@
 
 // Colors
 
-$gray-base:       #3C4F58;
-$gray-darker:     #455A64;
-$gray-dark:       #6A7B83;
-$gray:            #DCDCDC;
-$gray-light:      #F0F0F0;
-$gray-lighter:    #F6F6F6;
-$brand-primary:   #14A8BA;
+$gray-base:                      #3C4F58;
+$gray-darker:                    #455A64;
+$gray-dark:                      #6A7B83;
+$gray:                           #DCDCDC;
+$gray-light:                     #F0F0F0;
+$gray-lighter:                   #F6F6F6;
+$brand-primary:                  #14A8BA;
 
 // Scaffolding
 
-$body-bg:               $gray-lighter;
+$body-bg:                        $gray-lighter;
 
 // Typography
 
-$font-family-sans-serif:  "Open Sans", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:         "Open Sans", Helvetica, Arial, sans-serif;
 
-$headings-color:          $gray-base;
+$headings-color:                 $gray-base;
+
+
+// Components
+
+$border-radius-base:             2px;
+$border-radius-large:            3px;
+$border-radius-small:            1px;
 
 
 // Navbar
 
-$navbar-inverse-bg:                         $gray-base;
-$navbar-inverse-border:                     transparent;
+$navbar-inverse-bg:              $gray-base;
+$navbar-inverse-border:          transparent;
 
 
 // Jumbotron
@@ -37,7 +44,13 @@ $jumbotron-heading-color:        #fff;
 
 // Progress bars
 
-$progress-bg:                 #D4D4D4;
+$progress-bg:                    #D4D4D4;
+$progress-border-radius:         50px;
+
+// Panels
+
+$panel-body-padding:             20px;
+$panel-heading-padding:          12px 20px;
 
 
 
@@ -46,14 +59,18 @@ $progress-bg:                 #D4D4D4;
 
 // Technologies
 
-$technologies-bg:     $gray-light;
+$technologies-bg:                 $gray-light;
 
-$scala:               #F05C59;
-$akka:                #14A8BA;
-$play:                #91C754;
-$slick:               #FFAC32;
-$spark:               #FF784D;
-$scalaz:              #32ABA0;
-$shapeless:           #6573C4;
-$cats:                #4CAAF6;
+$scala:                           #F05C59;
+$akka:                            #14A8BA;
+$play:                            #91C754;
+$slick:                           #FFAC32;
+$spark:                           #FF784D;
+$scalaz:                          #32ABA0;
+$shapeless:                       #6573C4;
+$cats:                            #4CAAF6;
 
+
+// Panel
+
+//$panel-body-height:              164px;
