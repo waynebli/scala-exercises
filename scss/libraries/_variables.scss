@@ -19,14 +19,17 @@ $body-bg:                        $gray-lighter;
 
 $font-family-sans-serif:         "Open Sans", Helvetica, Arial, sans-serif;
 
+
+//$headings-font-family:           "Hind", sans-serif;
+$headings-font-weight:           500;
 $headings-color:                 $gray-base;
 
 
 // Components
 
-$border-radius-base:             2px;
+$border-radius-base:             3px;
 $border-radius-large:            3px;
-$border-radius-small:            1px;
+$border-radius-small:            2px;
 
 
 // Navbar
@@ -71,6 +74,7 @@ $shapeless:                       #6573C4;
 $cats:                            #4CAAF6;
 
 
-// Panel
+// How it works
 
-//$panel-body-height:              164px;
+$step-bg:                         #DCDCDC;
+$step-active-bg:                  $brand-primary;

@@ -6,15 +6,20 @@ section {
         top: ($padding-large-vertical * 2);
         bottom: ($padding-large-vertical * 3);
     }
-    
     @media (min-width: $screen-sm-min) {
         padding: {
             top: ($padding-large-vertical * 7);
             bottom: ($padding-large-vertical * 8);
         }
     }
-    
     h2 {
         margin-bottom: $line-height-computed;
     }
+}
+
+// Home
+
+.section-description {
+    margin-bottom: ($line-height-computed * 3);
+    font-size: $font-size-large;
 }
