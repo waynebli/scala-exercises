@@ -20,6 +20,10 @@ section {
 // Home
 
 .section-description {
-    margin-bottom: ($line-height-computed * 3);
+    margin-bottom: ($line-height-computed * 2);
     font-size: $font-size-large;
+    
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: ($line-height-computed * 3);
+    }
 }

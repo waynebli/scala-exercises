@@ -19,8 +19,16 @@ $body-bg:                        $gray-lighter;
 
 $font-family-sans-serif:         "Open Sans", Helvetica, Arial, sans-serif;
 
+$font-size-base:          14px;
 
-//$headings-font-family:           "Hind", sans-serif;
+$font-size-h1:            floor(($font-size-base * 2.6));
+$font-size-h2:            floor(($font-size-base * 1.7));
+$font-size-h3:            ceil(($font-size-base * 1.14));
+$font-size-h4:            ceil(($font-size-base * 0.93));
+$font-size-h5:            $font-size-base;
+$font-size-h6:            ceil(($font-size-base * 0.85));
+
+$headings-font-family:           "Raleway", sans-serif;
 $headings-font-weight:           500;
 $headings-color:                 $gray-base;
 
@@ -32,10 +40,14 @@ $border-radius-large:            3px;
 $border-radius-small:            2px;
 
 
+
+
 // Navbar
 
+$navbar-height:                  60px;
 $navbar-inverse-bg:              $gray-base;
 $navbar-inverse-border:          transparent;
+
 
 
 // Jumbotron
@@ -78,3 +90,21 @@ $cats:                            #4CAAF6;
 
 $step-bg:                         #DCDCDC;
 $step-active-bg:                  $brand-primary;
+
+
+// Spread the world
+
+$spread-bg:                       $gray-light;
+
+
+// Books docs
+
+$books-docs-bg:                   $gray-darker;
+$books-docs-text-color:           #A2ACB1;
+$books-docs-heading-color:        #fff;
+$books-docs-icons-color:          $brand-primary;
+
+// Footer
+
+$dark-link-color:                 #76848A;
+$dark-link-color-hover:           #B1B8BC;
