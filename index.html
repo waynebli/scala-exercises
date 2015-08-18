@@ -30,7 +30,7 @@
                 </button>
                 <a class="navbar-brand" href="#">
                     <svg viewBox="0 0 34 22" width="34" height="22">
-                        <use xlink:href="img/sprite-images.svg#brand-scala-exercises"/>
+                        <use xlink:href="img/sprite-images.svg#brand"/>
                     </svg>
                     <span>Scala Exercises</span>
                 </a>
@@ -45,7 +45,8 @@
             <!--.nav-collapse -->
         </div>
     </header>
-    <main class="jumbotron text-center">
+  
+    <main class="jumbotron text-center parallax-window" data-parallax="scroll" data-image-src="img/jumbotron_background.jpg">
         <div class="container">
             <h1>The path to enlightenment</h1>
             <p>An Open Source project by 47 Degrees</p>
@@ -54,6 +55,8 @@
             </p>
         </div>
     </main>
+
+   
     <!-- Technologies -->
     <section id="technologies">
         <div class="container">
@@ -264,7 +267,10 @@
     <footer id="bottom" class="dark">
         <div class="container">
             <div class="col-md-8">
-                <p>Scala Exercises is handcrafted by <a href="#">47 Degrees</a></p>
+                <svg viewBox="0 24 30 19" width="30" height="19">
+                    <use xlink:href="img/sprite-images.svg#brand-light"/>
+                </svg>
+                <p><span>Scala Exercises is handcrafted by <a href="#">47 Degrees</a></span></p>
                 <ul>
                     <li>
                         <a href="#">Contact us</a>
@@ -281,12 +287,13 @@
 
             </div>
             <div class="col-md-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, sint quisquam pariatur distinctio quis nostrum consequuntur cumque non quos beatae quo assumenda cum adipisci, perferendis officiis harum asperiores facilis fugit.
+                <p class="text-right"><a href="#">View on GitHub</a></p>
             </div>
         </div>
     </footer>
     <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <!-- Symbolset -->
     <script src="//cdn.symbolset.com/8ee4d327be084fc7d7153262a0f1f49a20e3cc19/symbolset.js"></script>

@@ -13,6 +13,16 @@
         }
     }
     
+    svg {
+        float: left;
+    }
+    
+    p {
+        span {
+            margin-left: 10px;
+        }
+    }
+    
     ul {
         padding: 0;
         
@@ -26,8 +36,9 @@
 
 .dark {
     background: $gray-base;
-    
+
     a {
+        text-decoration: underline;
         color: $dark-link-color;
         
         &:hover {
