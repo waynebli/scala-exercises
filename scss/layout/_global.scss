@@ -1,6 +1,10 @@
 // Global
 // -----------------------------------------------------
 
+.navbar-akka {
+    background: $akka;
+}
+
 section {
     padding: {
         top: ($padding-large-vertical * 2);

@@ -24,3 +24,19 @@
 .progress-bar {
     @include box-shadow(none);
 }
+
+#sidebar {
+    .content-progres-bar {
+        padding: 25px 25px 15px 25px;
+        background: none;
+        
+        span {
+            top: 19px;
+            right: 25px;
+        }
+    }
+    
+    .progress {
+        max-width: 78%;
+    }
+}
