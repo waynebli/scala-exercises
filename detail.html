@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <header class="navbar navbar-inverse navbar-static-top navbar-akka" role="navigation">
+    <header class="navbar navbar-inverse navbar-fixed-top navbar-akka" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -38,9 +38,17 @@
                 </a>
             </div>
 
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse"> 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Rafa Paradela</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="img/avatar-top.png" alt=""> Rafa Paradela
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">View on GitHub</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -56,88 +64,120 @@
                 <span>18/30</span>
             </div>
             <ul>
-           <li>
-               <h3>Categories</h3>
-           </li>
-            <li>
-                <span></span>
-                <a href="#">1. Asserts</a>
-            </li>
-            <li>
-                <span></span>
-                <a class="active" href="#">2. Classes</a>
-            </li>
-            <li>
-                <span class="bullet-active"></span>
-                <a href="#">3. Options</a>
-            </li>
-            <li>
-                <span class="bullet-active"></span>
-                <a href="#">4. Objects</a>
-            </li>
-            <li>
-                <span class="bullet-active"></span>
-                <a href="#">5. Tuples</a>
-            </li>
-            <li>
-                <span class="bullet-active"></span>
-                <a href="#">6. List</a>
-            </li>
-            <li>
-                <span></span>
-                <a href="#">7. Maps</a>
-            </li>
-            <li>
-                <span class="bullet-active"></span>
-                <a href="#">8. Sets</a>
-            </li>
-            <li>
-                <span class="bullet-active"></span>
-                <a href="#">9. Formatting</a>
-            </li>
-            <li>
-                <span></span>
-                <a href="#">10. Pattern Matching</a>
-            </li>
-            <li>
-                <span></span>
-                <a href="#">11. Range</a>
-            </li>
-             <li>
-                <span></span>
-                <a href="#">12. For Expressions</a>
-            </li>
-             <li>
-                <span class="bullet-active"></span>
-                <a href="#">13. Mutable Maps</a>
-            </li>   
-        </ul>
+                <li>
+                    <h3>Categories</h3>
+                </li>
+                <li>
+                    <span></span>
+                    <a href="#">1. Asserts</a>
+                </li>
+                <li>
+                    <span></span>
+                    <a class="active" href="#">2. Classes</a>
+                </li>
+                <li>
+                    <span class="bullet-active"></span>
+                    <a href="#">3. Options</a>
+                </li>
+                <li>
+                    <span class="bullet-active"></span>
+                    <a href="#">4. Objects</a>
+                </li>
+                <li>
+                    <span class="bullet-active"></span>
+                    <a href="#">5. Tuples</a>
+                </li>
+                <li>
+                    <span class="bullet-active"></span>
+                    <a href="#">6. List</a>
+                </li>
+                <li>
+                    <span></span>
+                    <a href="#">7. Maps</a>
+                </li>
+                <li>
+                    <span class="bullet-active"></span>
+                    <a href="#">8. Sets</a>
+                </li>
+                <li>
+                    <span class="bullet-active"></span>
+                    <a href="#">9. Formatting</a>
+                </li>
+                <li>
+                    <span></span>
+                    <a href="#">10. Pattern Matching</a>
+                </li>
+                <li>
+                    <span></span>
+                    <a href="#">11. Range</a>
+                </li>
+                <li>
+                    <span></span>
+                    <a href="#">12. For Expressions</a>
+                </li>
+                <li>
+                    <span class="bullet-active"></span>
+                    <a href="#">13. Mutable Maps</a>
+                </li>
+            </ul>
         </section>
         <section id="content-detail">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
                         <h2>Classes</h2>
-                        <div class="exercise">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus qui eum deserunt tenetur cum aliquam dolor ut, expedita fugit ex dignissimos nobis in fugiat temporibus laborum nihil alias, similique iure.</div>
+                        <div class="exercise">
+                            <div class="ribbon-wrapper"><div class="ribbon-green">Complete</div></div>
+                            <p>The program defines an executable application Classes in form of a top-level singleton object with a main method. The main method creates a new Point and stores it in value pt. Note that values defined with the val construct are different from variables defined with the var construct (see class Point above) in that they do not allow updates; i.e. the value is constant.</p>
+                            <div class="highlight">
+                                <pre><code></code></pre>
+                            </div>
+                            <p>Classes are instantiated with the new primitive, as the following example will show:</p>
+                            <div class="highlight">
+                                <pre><code></code></pre>
+                            </div>
+                            <p>Classes are instantiated with the new primitive, as the following example will show:</p>
+                            <div class="highlight">
+                                <pre><code></code></pre>
+                            </div>
+                        </div>
+                        <div class="contributors">
+                            <ul>
+                                <li>2 contributors</li>
+                                <li>
+                                    <a data-toggle="tooltip" data-placement="bottom" title="redxoms" href="#"><img src="img/contributors_01.png" alt="">
+                                    </a>
+                                </li>
+                                <li> <a data-toggle="tooltip" data-placement="bottom" title="jorgegalindocruces" href="#"><img src="img/contributors_02.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        </div>
 
-        <!-- JS -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="js/parallax.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-        <!-- Symbolset -->
-        <script src="//cdn.symbolset.com/8ee4d327be084fc7d7153262a0f1f49a20e3cc19/symbolset.js"></script>
-        <!-- Menu Toggle Script -->
-        <script>
-            $("#menu-toggle").click(function (e) {
-                e.preventDefault();
-                $("#wrapper").toggleClass("toggled");
-            });
-        </script>
+        </section>
+    </div>
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Symbolset -->
+    <script src="//cdn.symbolset.com/8ee4d327be084fc7d7153262a0f1f49a20e3cc19/symbolset.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
 
 </body>
 
